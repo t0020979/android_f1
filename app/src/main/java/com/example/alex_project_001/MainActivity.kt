@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
         val age: Int = 37
         val height: Double = 172.2
 
-        val text: String = "name: $name surname: $surname. age: $age height: $height"
+        val text: String = "name: $name surname: $surname age: $age height: $height"
 
         val output: TextView = findViewById(R.id.output)
         output.text = text
